@@ -1,0 +1,20 @@
+{
+  "name": "@datata/logging",
+  "version": "1.0.0",
+  "description": "Logger",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/datata/logging.git"
+  },
+  "keywords": [
+    "logger"
+  ],
+  "author": "datata",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/datata/logging/issues"
+  },
+  "homepage": "https://github.com/datata/logging#readme"
+}
