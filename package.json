@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/datata/logging/issues"
   },
-  "homepage": "https://github.com/datata/logging#readme"
+  "homepage": "https://github.com/datata/logging#readme",
+  "dependencies": {
+    "chalk": "^4.1.2"
+  }
 }
