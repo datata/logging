@@ -1,5 +1,5 @@
 const info = message => {
-  console.log(`[INFO]) ${message}`)
+  console.log(`[INFO] ${message}`)
 }
 
-exports.info
+exports.info = info
