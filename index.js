@@ -16,7 +16,5 @@ function close() {
   stream.end()
 }
 
-process.on('SIGINT', closeStream)
-
 exports.info = info
 exports.close = close
