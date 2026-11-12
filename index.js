@@ -11,11 +11,12 @@ const info = message => {
   stream.write(logMessage)
 }
 
-function closeStream() {
-  console.log('Close stream SignInt')
+function close() {
+  console.log('Close logger!')
   stream.end()
 }
 
 process.on('SIGINT', closeStream)
 
 exports.info = info
+exports.close = close
